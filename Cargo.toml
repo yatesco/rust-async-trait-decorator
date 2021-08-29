@@ -1,0 +1,13 @@
+[package]
+name = "rust-async-trait-decorator"
+version = "0.1.0"
+authors = ["Colin Yates <colin.yates@qficonsulting.com>"]
+edition = "2018"
+
+[dependencies]
+thiserror = "1.0"
+anyhow = "1.0"
+futures = "0.3"
+tokio = { version = "1", features = ["macros","rt"] }
+async-trait = "0"
+
